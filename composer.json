@@ -1,0 +1,33 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:thecodingmachine/definition-discovery.git"
+        }
+    ],
+    "name": "thecodingmachine/doctrine-cache-harmony",
+    "type": "library",
+    "description": "This package integrates Doctrine cache in any definition-interop compatible framework/container.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DoctrineCacheHarmony\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DoctrineCacheHarmony\\": "tests/"
+        }
+    },
+    "require": {
+        "doctrine/cache" : "~1.4",
+        "thecodingmachine/yaml-definition-loader": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5",
+        "puli/cli": "~1.0",
+        "puli/composer-plugin": "~1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
