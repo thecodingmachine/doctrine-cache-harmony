@@ -1,6 +1,13 @@
 {
     "version": "1.0",
     "name": "thecodingmachine/doctrine-cache-harmony",
+    "bindings": {
+        "151562b6-8fa2-4b14-9a30-a7f57acb1d2c": {
+            "_class": "Puli\\Discovery\\Binding\\ResourceBinding",
+            "query": "/services.yml",
+            "type": "definition-interop/yaml-definition-files"
+        }
+    },
     "config": {
         "bootstrap-file": "vendor/autoload.php"
     },
