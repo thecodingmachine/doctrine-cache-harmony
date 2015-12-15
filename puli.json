@@ -1,10 +1,13 @@
 {
     "version": "1.0",
     "name": "thecodingmachine/doctrine-cache-harmony",
+    "path-mappings": {
+        "/thecodingmachine/doctrine-cache-harmony": "services"
+    },
     "bindings": {
-        "151562b6-8fa2-4b14-9a30-a7f57acb1d2c": {
+        "60000f14-1a3b-467b-9102-4e7b055d02f3": {
             "_class": "Puli\\Discovery\\Binding\\ResourceBinding",
-            "query": "/services.yml",
+            "query": "/thecodingmachine/doctrine-cache-harmony/services.yml",
             "type": "definition-interop/yaml-definition-files"
         }
     },

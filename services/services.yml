@@ -1,4 +1,4 @@
 services:
     doctrine.cache:
         factory: DoctrineCacheHarmony\DoctrineCacheFactory::build
-        arguments: '@debug', '@secret'
+        arguments: ['@debug', '@secret']
